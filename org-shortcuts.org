@@ -1,0 +1,24 @@
+* The notes and shortkeys of spacemacs
+| shortkeys | description |
+|-----------+-------------|
+| space  |             |
+
+** Evil
+| shortkeys           | description                     |
+|---------------------+---------------------------------|
+| %                   | jump to the matching parethesis |
+| / and ?             | search forward and backward     |
+| :! external command | such as :! ls                   |
+
+** Org-mode
+
+** Windows and Layouts
+| shortkeys    | description                      |
+|--------------+----------------------------------|
+| space w hjkl | change window                    |
+| space w s/v  | split horizentally/ vertically   |
+| space w d/D  | delete current one /choose one   |
+| space w F    | create a new frame               |
+| space w .    | A list such as resize the window |
+| space L      | choose the layout                |
+
