@@ -1,24 +1,53 @@
 * The notes and shortkeys of spacemacs
-| shortkeys | description |
-|-----------+-------------|
-| space  |             |
-
+| shortkeys   | description                   |
+|-------------+-------------------------------|
+| space b h   | buffer home                   |
+| space h     | help                          |
+| space f e d | go to your configuration file |
+| space h l   | help layers                   |
+| space q q   | quit emacs                    |
 ** Evil
-| shortkeys           | description                     |
-|---------------------+---------------------------------|
-| %                   | jump to the matching parethesis |
-| / and ?             | search forward and backward     |
-| :! external command | such as :! ls                   |
+| shortkeys           | description                           |
+|---------------------+---------------------------------------|
+| %                   | jump to the matching parethesis       |
+| / and ?             | search forward and backward           |
+| :! external command | such as :! ls                         |
+| y s i w             | add something around a word           |
+| v/d a e/r           | visual/delete arround element/subtree |
+|                     |                                       |
 
-** Org-mode
+
 
 ** Windows and Layouts
 | shortkeys    | description                      |
 |--------------+----------------------------------|
 | space w hjkl | change window                    |
 | space w s/v  | split horizentally/ vertically   |
+| space w c   | center the window                |
 | space w d/D  | delete current one /choose one   |
 | space w F    | create a new frame               |
 | space w .    | A list such as resize the window |
 | space L      | choose the layout                |
 
+
+** Org-mode
+   DEADLINE: <2020-08-12 周三 09:00-11:00>
+
+| shortkeys                     | description              |
+|-------------------------------+--------------------------|
+| space i s                     | snippets                 |
+| , i                           | a list of insert choices |
+| z + c o r                     | close open open all      |
+| , s n                         | subtree narrow mode      |
+| , x b i                       | command about font       |
+| shift  rightarrow             | change a title todo/done |
+| shift up/down in the deadline | change the deadline time |
+
+#+BEGIN_SRC python
+import requests
+
+if i > 1
+print("you stupid man")
+end
+
+#+END_SRC
