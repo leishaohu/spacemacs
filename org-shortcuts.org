@@ -66,12 +66,13 @@ end
 
    
 **  Magit
-  | shortkeys | description       |
-  |-----------+-------------------|
-  | space g s | git status        |
-  | ?         | a list of options |
-  | b b       | to revise branch  |
-  | c c       | commit            |
-  | p p       | push              |
-  | F p of f  | to pull           |
-  |           |                   |
+  | shortkeys           | description                        |
+  |---------------------+------------------------------------|
+  | space g s           | git status                         |
+  | ?                   | a list of options                  |
+  | b b                 | to revise branch                   |
+  | c c                 | commit                             |
+  | p p                 | push                               |
+  | F p of f            | to pull                            |
+  | e                   | three windows about the difference |
+  | choose A or B and q | choose one and quit and save       |
