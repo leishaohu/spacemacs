@@ -72,3 +72,4 @@ end
   | ?         | a list of options |
   | b b       | to revise branch  |
   | c c       | commit            |
+  | p p       | push              |
