@@ -73,5 +73,5 @@ end
   | b b       | to revise branch  |
   | c c       | commit            |
   | p p       | push              |
-  | try       | pull              |
+  | F p of f  | to pull           |
   |           |                   |
