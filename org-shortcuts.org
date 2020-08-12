@@ -1,6 +1,6 @@
 * The notes and shortkeys of spacemacs
 | shortkeys   | description                   |
-|-------------+-------------------------------|
+||-------------+-------------------------------|
 | space b h   | buffer home                   |
 | space h     | help                          |
 | space f e d | go to your configuration file |
@@ -17,31 +17,34 @@
 |                     |                                       |
 
 
-
 ** Windows and Layouts
-| shortkeys    | description                      |
-|--------------+----------------------------------|
-| space w hjkl | change window                    |
-| space w s/v  | split horizentally/ vertically   |
-| space w c   | center the window                |
-| space w d/D  | delete current one /choose one   |
-| space w F    | create a new frame               |
-| space w .    | A list such as resize the window |
-| space L      | choose the layout                |
-
+| shortkeys    | description                        |
+|--------------+------------------------------------|
+| space w hjkl | change window                      |
+| space w s/v  | split horizentally/ vertically     |
+| space w c C  | center the window without anything |
+| space w d/D  | delete current one /choose one     |
+| space w F    | create a new frame                 |
+| space w .    | A list such as resize the window   |
+| space L      | choose the layout                  |
 
 ** Org-mode
-   DEADLINE: <2020-08-12 周三 09:00-11:00>
+   DEADLINE: <2020-08-16 Sun 09:00-11:00>
 
-| shortkeys                     | description              |
-|-------------------------------+--------------------------|
-| space i s                     | snippets                 |
-| , i                           | a list of insert choices |
-| z + c o r                     | close open open all      |
-| , s n                         | subtree narrow mode      |
-| , x b i                       | command about font       |
-| shift  rightarrow             | change a title todo/done |
-| shift up/down in the deadline | change the deadline time |
+| shortkeys                 | description                  |
+|---------------------------+------------------------------|
+| space i s                 | snippets                     |
+| , i                       | a list of insert choices     |
+| z + c o r m               | close open open all close    |
+| , s n                     | subtree narrow mode          |
+| , x b i                   | command about font           |
+| , d d                     | change the deadline time     |
+| , a                       | a list for agenda            |
+| , s S                     | org sort                     |
+| shift  right-arrow        | agenda deadline              |
+| shift up/down in deadline | change a title todo/done     |
+| "=" a e                   | indent around element        |
+| ctrl c ctrl x ctrl c      | change the subtree to todo e |
 
 #+BEGIN_SRC python
 import requests
@@ -51,3 +54,21 @@ print("you stupid man")
 end
 
 #+END_SRC
+
+** Jumping around your code
+   | shortkeys   | description                            |
+   |-------------+----------------------------------------|
+   | space j j   | jump anywhere you want(another window) |
+   | d space j j | delete to where you jump               |
+   | space j w   | jump to a word                         |
+   | space j i   | jump to a element                      |
+   | space j l   | jump to a line(any buffer)             |
+
+   
+**  Magit
+  | shortkeys | description       |
+  |-----------+-------------------|
+  | space g s | git status        |
+  | ?         | a list of options |
+  | b b       | to revise branch  |
+  |           |                   |
