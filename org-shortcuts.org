@@ -71,4 +71,4 @@ end
   | space g s | git status        |
   | ?         | a list of options |
   | b b       | to revise branch  |
-  |           |                   |
+  | c c       | commit            |
