@@ -79,7 +79,7 @@ end
   exerciese one more time
 ecercies two times more
   
- 
+exercise more time 
 ** Dired mode   exerciese one more time
 
 | shortkeys | description               |
