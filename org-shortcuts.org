@@ -76,6 +76,7 @@ end
   | F p or f                | to pull                            |
   | e(on the unstaged file) | three windows about the difference |
   | choose A or B and q     | choose one and quit and save       |
+  exerciese one more time
 
   
  
