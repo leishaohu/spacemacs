@@ -76,10 +76,8 @@ end
   | F p                     | to pull                            |
   | e(on the unstaged file) | three windows about the difference |
   | choose A or B and q     | choose one and quit and save       |
-  exerciese one more time
-ecercies two times more
-  
-exercise more time 
+ 
+ 
 ** Dired mode   exerciese one more time
 
 | shortkeys | description               |
