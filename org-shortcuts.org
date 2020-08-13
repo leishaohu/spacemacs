@@ -1,6 +1,6 @@
 * The notes and shortkeys of spacemacs
 | shortkeys   | description                   |
-||-------------+-------------------------------|
+|-------------+-------------------------------|
 | space b h   | buffer home                   |
 | space h     | help                          |
 | space f e d | go to your configuration file |
@@ -65,7 +65,7 @@ end
    | space j l   | jump to a line(any buffer)             |
 
    
-**  Magit
+** Magit
   | shortkeys           | description                        |
   |---------------------+------------------------------------|
   | space g s           | git status                         |
@@ -76,3 +76,17 @@ end
   | F p of f            | to pull                            |
   | e                   | three windows about the difference |
   | choose A or B and q | choose one and quit and save       |
+
+  
+ 
+** Dired mode 
+| shortkeys | description               |
+|-----------+---------------------------|
+| space p t | the fracture of the files |
+| space 1   | change to window 1        |
+| space 0   | the tree is window 0      |
+| c f/d     | create a file/directory   |
+| h l       | root up/down              |
+| H         | close parent              |
+| R d m     | rename delete move a file |
+|           |                           |
