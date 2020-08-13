@@ -89,4 +89,3 @@ end
 | h l       | root up/down              |
 | H         | close parent              |
 | R d m     | rename delete move a file |
-|           |                           |
