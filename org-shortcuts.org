@@ -78,8 +78,7 @@ end
   | choose A or B and q     | choose one and quit and save       |
  
  
-** Dired mode   exerciese one more time
-
+** Dired mode  
 | shortkeys | description               |
 |-----------+---------------------------|
 | space p t | the fracture of the files |
@@ -89,3 +88,13 @@ end
 | h l       | root up/down              |
 | H         | close parent              |
 | R d m     | rename delete move a file |
+
+** Python mode
+
+| shortkeys | description                    |
+|-----------+--------------------------------|
+| space m   | equals to ,                    |
+| , c c     | execute the file               |
+| , =       | Reformat the buffer            |
+| , v a     | activate a virtual environment |
+|           |                                |
