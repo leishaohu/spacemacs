@@ -66,20 +66,19 @@ end
 
    
 ** Magit
-  | shortkeys           | description                        |
-  |---------------------+------------------------------------|
-  | space g s           | git status                         |
-  | ?                   | a list of options                  |
-  | b b                 | to revise branch                   |
-  | c c                 | commit                             |
-  | p p                 | push                               |
-  | F p of f            | to pull                            |
-  | e                   | three windows about the difference |
-  | choose A or B and q | choose one and quit and save       |
-
-  
+  | shortkeys               | description                        |
+  |-------------------------+------------------------------------|
+  | space g s               | git status                         |
+  | ?                       | a list of options                  |
+  | b b                     | to revise branch                   |
+  | c c                     | commit                             |
+  | p p                     | push                               |
+  | F p                     | to pull                            |
+  | e(on the unstaged file) | three windows about the difference |
+  | choose A or B and q     | choose one and quit and save       |
  
-** Dired mode 
+ 
+** Dired mode  
 | shortkeys | description               |
 |-----------+---------------------------|
 | space p t | the fracture of the files |
@@ -89,3 +88,13 @@ end
 | h l       | root up/down              |
 | H         | close parent              |
 | R d m     | rename delete move a file |
+
+** Python mode
+
+| shortkeys | description                    |
+|-----------+--------------------------------|
+| space m   | equals to ,                    |
+| , c c     | execute the file               |
+| , =       | Reformat the buffer            |
+| , v a     | activate a virtual environment |
+|           |                                |
