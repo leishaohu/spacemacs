@@ -97,4 +97,6 @@ end
 | , c c     | execute the file               |
 | , =       | Reformat the buffer            |
 | , v a     | activate a virtual environment |
+| , s i     | start a REPL process           |
+| , g g/b   | go to definition/go back       |
 |           |                                |
